@@ -25,7 +25,8 @@ import cucumber.api.junit.Cucumber
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\Include\\features", glue="",
+@CucumberOptions(features="C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\Include\\features", 
+	glue="",
 	plugin = ["pretty",
 		"junit:MyReports/cucumber.xml",
 		"html:MyReports",
