@@ -93,8 +93,8 @@ class LoginStepDef {
 	}
 
 
-	@Then("User has to be logged in")
-	public void user_has_to_be_logged_in() {
+	@Then("User has to be loggedin")
+	public void user_has_to_be_loggedin() {
 
 		WebUI.verifyTextPresent("PayBill", false)
 
