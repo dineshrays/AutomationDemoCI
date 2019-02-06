@@ -28,5 +28,5 @@ Given Navigate to Login page
 When User enters username
 And User enters password
 And User click on login 
-Then User has to be loggedin
+Then User has to be logged in
 
