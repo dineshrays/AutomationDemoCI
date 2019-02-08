@@ -87,10 +87,10 @@ class OrangeHRMLoginStepDef {
 
 		//  WebUI.verifyImagePresent(findTestObject('Object Repository/Page_OrangeHRM/img'))
 
-	////	WebUI.verifyImagePresent(findTestObject('Object Repository/OragneHRM/Page_OrangeHRM/img'))
+		////	WebUI.verifyImagePresent(findTestObject('Object Repository/OragneHRM/Page_OrangeHRM/img'))
 
 		//	WebUI.verifyImagePresent(findTestObject('Object Repository/Test/Page_OrangeHRM/img'))
-		
+
 		WebUI.verifyElementVisible(findTestObject('Object Repository/OragneHRM/Page_OrangeHRM/img'))
 
 		WebUI.closeBrowser()

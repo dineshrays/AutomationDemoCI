@@ -30,4 +30,4 @@ Feature: Title of your feature
 
     Examples: 
       | username | password |
-      | admin    | admin123 |
+      | Admin    | admin123 |
