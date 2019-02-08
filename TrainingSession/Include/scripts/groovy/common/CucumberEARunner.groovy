@@ -30,9 +30,9 @@ glue="",
 plugin = ["pretty",
 	"junit:MyReports/cucumber.xml",
 	"html:MyReports",
-	"json:MyReports/cucumber.json"]
+	"json:MyReports/cucumber.json"])
 
 
-)
+
 public class CucumberEARunner {
 }
