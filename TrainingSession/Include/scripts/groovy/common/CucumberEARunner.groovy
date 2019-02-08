@@ -28,9 +28,9 @@ import cucumber.api.junit.Cucumber
 @CucumberOptions(features="C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\Include\\features",
 glue="",
 plugin = ["pretty",
-	"junit:MyReports/cucumber.xml",
-	"html:MyReports",
-	"json:MyReports/cucumber.json"])
+	"junit:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\MyReportsMyReports\\cucumber.xml",
+	"html:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\MyReports",
+	"json:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\MyReportsMyReports\\cucumber.json"])
 
 
 
