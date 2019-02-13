@@ -28,11 +28,16 @@ import cucumber.api.junit.Cucumber
 @CucumberOptions(features="C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\Include\\features",
 glue="",
 plugin = ["pretty",
+	"junit:MyReports/cucumber.xml",
+	"html:MyReports",
+	"json:MyReports/cucumber.json"])
+
+
+
+/*plugin = ["pretty",
 	"junit:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\MyReports\\cucumber.xml",
 	"html:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\MyReports",
-	"json:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\MyReports\\cucumber.json"])
-
-
+	"json:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\MyReports\\cucumber.json"])*/
 
 public class CucumberEARunner {
 }
