@@ -35,9 +35,9 @@ plugin = ["pretty",
 
 
 /*plugin = ["pretty",
-	"junit:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\MyReports\\cucumber.xml",
-	"html:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\MyReports",
-	"json:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\MyReports\\cucumber.json"])*/
+ "junit:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\MyReports\\cucumber.xml",
+ "html:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\MyReports",
+ "json:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationDemoCI\\TrainingSession\\MyReports\\cucumber.json"])*/
 
 public class CucumberEARunner {
 }
