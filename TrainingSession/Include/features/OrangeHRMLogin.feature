@@ -17,11 +17,11 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
-Feature: Title of your feature
-  I want to use this template for my feature file
+Feature: Login for Orange HRM  Site
+  I want to use this template for my Orange HRM site
 
   @tag1
-  Scenario Outline: Title of your scenario outline
+  Scenario Outline: Login the Orange HRM user
     Given Navigate to Orange HRM Login page
     When User enters username <username>
     And User enters password <password>
