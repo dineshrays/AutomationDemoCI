@@ -17,7 +17,7 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
-Feature: Login for Test Demo Site
+Feature: Login DEMO
   I want to use this template for my Demo Site
 
 
